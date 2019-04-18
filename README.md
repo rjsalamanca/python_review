@@ -2,6 +2,8 @@
 
 ## Day of the Week
 
+**Solution is stored in: day_of_week.py**
+
 Given the following code that prompts the user for a day number (the int function converts a numeric string to a number):
 ```
 day = int(input('Day (0-6)? '))
@@ -21,6 +23,9 @@ Sunday
 ```
 
 ## Work or Sleep In?
+
+**Solution is stored in: work_or_sleep_in.py**
+
 Prompt the user for a day of the week just like the previous problem. But this time, print "Go to work" if it's a work day and "Sleep in" if it's a weekend day. Example session:
 
 ```
@@ -33,6 +38,8 @@ Sleep in
 ```
 
 ## Celsius to Fahrenheit
+
+**Solution is stored in: degree_conversion.py**
 
 Prompt the user for a number in degrees Celsius, and convert the value to degrees in Fahrenheit and display it to the user. Example session:
 
@@ -48,6 +55,8 @@ Temperature in C? -5
 Hint: the formula to convert degrees C to degrees F is: F = C x 1.8 + 32.
 
 ## Tip Calculator
+
+**Solution is stored in: tip_calc.py**
 
 Prompt the user for two things:
 
@@ -80,6 +89,9 @@ Hints:
 - To format a float number as a dollar value, use Python's formatting syntax: '%.2f' % amount
 
 ## Tip Calculator 2
+
+**Solution is stored in: tip_calc2.py**
+
 Allow the ability to divide the check into a equal parts amount a number of people. The user will enter the number of people to be divided amongst. Example session:
 ```
 $ python tip_calc2.py
